@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main(){
+    float x =5.7;
+    scanf("%f",&x);
+    int y=x;
+    float z= x-y;
+    printf("%d",&x); 
+    printf("%F",&z);
+    return 0;
+}
